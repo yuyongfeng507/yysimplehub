@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: yyfsimple
+  # 支持 swagger3
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+server:
+  port: 8080
